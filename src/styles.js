@@ -8,13 +8,14 @@ const useStyles = makeStyles((theme) => ({
   main: {
     position: 'relative',
     minHeight: '100vh',
+    backgroundColor: '#2148c0',
     display: 'flex',
     justifyContent: 'flex-end',
   },
   vectorImage: {
     height: '100vh',
     width: 'auto',
-    zIndex: -1,
+    //zIndex: -1,
   },
   ellipse1: {
     width: 'auto',
@@ -36,6 +37,13 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     bottom: 0,
     left: 0,
+  },
+  cart: {
+    position: 'absolute',
+    top: '30%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width:'auto',
   },
 }));
 
